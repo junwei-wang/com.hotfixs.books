@@ -9,8 +9,52 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <developers>
+        <developer>
+            <id>junwei-wang</id>
+            <name>Junwei Wang</name>
+            <email>i.junwei.wang@gmail.com</email>
+            <timezone>+8</timezone>
+            <organization>Baidu, Inc.</organization>
+            <organizationUrl>http://www.baidu.com</organizationUrl>
+        </developer>
+    </developers>
+
     <modules>
         <module>thinking-in-java</module>
     </modules>
+
+    <properties>
+        <junit.version>4.12</junit.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <compilerArgument>-Xlint:all</compilerArgument>
+                    <showWarnings>true</showWarnings>
+                    <showDeprecation>true</showDeprecation>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencyManagement>
+
+        <!-- test frameworks -->
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
