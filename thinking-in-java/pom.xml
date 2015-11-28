@@ -18,6 +18,7 @@
         <module>object</module>
         <module>common</module>
         <module>operators</module>
+        <module>initialization</module>
     </modules>
 
 
