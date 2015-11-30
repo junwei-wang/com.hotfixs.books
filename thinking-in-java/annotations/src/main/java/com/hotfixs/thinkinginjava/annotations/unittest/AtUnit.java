@@ -16,7 +16,7 @@ public class AtUnit implements ProcessFiles.Strategy {
         if (failures == 0) {
             System.out.println("OK (" + testRun + " tests)");
         } else {
-            
+
         }
     }
 

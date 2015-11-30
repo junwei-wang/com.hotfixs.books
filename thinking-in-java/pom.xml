@@ -19,6 +19,9 @@
         <module>common</module>
         <module>operators</module>
         <module>initialization</module>
+        <module>access</module>
+        <module>reusing</module>
+        <module>polymorphism</module>
     </modules>
 
 
