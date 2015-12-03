@@ -23,6 +23,7 @@
         <module>reusing</module>
         <module>polymorphism</module>
         <module>interfaces</module>
+        <module>innerclasses</module>
     </modules>
 
 
