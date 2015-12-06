@@ -24,6 +24,8 @@
         <module>polymorphism</module>
         <module>interfaces</module>
         <module>innerclasses</module>
+        <module>holding</module>
+        <module>typeinfo</module>
     </modules>
 
 
