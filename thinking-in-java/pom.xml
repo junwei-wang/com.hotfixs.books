@@ -26,6 +26,7 @@
         <module>innerclasses</module>
         <module>holding</module>
         <module>typeinfo</module>
+        <module>exceptions</module>
     </modules>
 
 
