@@ -23,6 +23,7 @@
     <modules>
         <module>thinking-in-java</module>
         <module>checker-framework</module>
+        <module>core-java</module>
     </modules>
 
     <properties>
