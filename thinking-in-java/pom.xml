@@ -27,6 +27,7 @@
         <module>holding</module>
         <module>typeinfo</module>
         <module>exceptions</module>
+        <module>strings</module>
     </modules>
 
 

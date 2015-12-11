@@ -48,7 +48,7 @@ public class TurnOffChecking {
                 } catch (FileNotFoundException e2) {
                     print(e2);
                 } catch (IOException e2) {
-                    print(e2)
+                    print(e2);
                 } catch (Throwable throwable) {
                     print(throwable);
                 }
