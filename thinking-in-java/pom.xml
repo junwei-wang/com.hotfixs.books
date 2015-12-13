@@ -28,6 +28,8 @@
         <module>typeinfo</module>
         <module>exceptions</module>
         <module>strings</module>
+        <module>generics</module>
+        <module>arrays</module>
     </modules>
 
 
