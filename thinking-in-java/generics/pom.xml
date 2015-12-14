@@ -11,5 +11,12 @@
 
     <artifactId>generics</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.hotfixs.thinking-in-java</groupId>
+            <artifactId>common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
