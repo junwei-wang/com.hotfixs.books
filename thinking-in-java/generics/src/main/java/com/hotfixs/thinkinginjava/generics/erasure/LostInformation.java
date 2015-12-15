@@ -1,4 +1,4 @@
-package com.hotfixs.thinkinginjava.generics;
+package com.hotfixs.thinkinginjava.generics.erasure;
 
 import static com.hotfixs.thinkinginjava.common.Print.print;
 
@@ -10,7 +10,7 @@ import java.util.List;
  * @author Junwei Wang (i.junwei.wang@gmail.com)
  */
 
-class Test<TYPE_A, TYPE_B> {
+class Test<TYPE_A extends Number, TYPE_B> {
 }
 
 public class LostInformation {
