@@ -1,4 +1,4 @@
-package com.hotfixs.thinkinginjava.generics.erasure;
+package com.hotfixs.thinkinginjava.generics.arrays;
 
 import static com.hotfixs.thinkinginjava.common.Print.print;
 
