@@ -8,16 +8,19 @@ import static com.hotfixs.thinkinginjava.common.Print.print;
 public class Holder<T> {
     private T item;
 
+    public Holder() {
+    }
+
     public Holder(T item) {
         this.item = item;
     }
 
-    public T getItem() {
+    public T get() {
         return item;
     }
 
     // generic method parameter
-    public void setItem(T item) {
+    public void set(T item) {
         this.item = item;
     }
 
@@ -28,20 +31,20 @@ public class Holder<T> {
 
     public static void main(String[] args) {
         Holder<Integer> integer = new Holder<>(1);
-        Integer i = integer.getItem();
-        integer.setItem(i);
+        Integer i = integer.get();
+        integer.set(i);
 
         // Holder<Number> number = integer; // cannot upcast
         Holder<? extends Number> number = integer;
-        Integer i2 = (Integer) number.getItem();
+        Integer i2 = (Integer) number.get();
 
         try {
-            Short bool = (Short) number.getItem();
+            Short bool = (Short) number.get();
         } catch (Exception e) {
             print(e);
         }
-        // number.setItem(1);   // cannot call setItem()
-        // number.setItem(1.2f); // cannot call setItem()
+        // number.set(1);   // cannot call set()
+        // number.set(1.2f); // cannot call set()
         print(number.equals(1));
     }
 }

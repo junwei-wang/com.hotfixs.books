@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.hotfixs.core-java</groupId>
     <artifactId>core-java</artifactId>
-
+    <packaging>pom</packaging>
 
 </project>
