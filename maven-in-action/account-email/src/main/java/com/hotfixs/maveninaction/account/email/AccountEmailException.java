@@ -1,0 +1,16 @@
+package com.hotfixs.maveninaction.account.email;
+
+/**
+ * Created by wangjunwei on 7/21/15.
+ */
+public class AccountEmailException extends Exception {
+    private static final long serialVersionUID = -4817386460334501672L;
+
+    public AccountEmailException(String message) {
+        super(message);
+    }
+
+    public AccountEmailException(String message, Throwable throwable) {
+        super(message, throwable);
+    }
+}

@@ -24,6 +24,7 @@
         <module>thinking-in-java</module>
         <module>checker-framework</module>
         <module>core-java</module>
+        <module>maven-in-action</module>
     </modules>
 
     <properties>
