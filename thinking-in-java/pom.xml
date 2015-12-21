@@ -30,6 +30,7 @@
         <module>strings</module>
         <module>generics</module>
         <module>arrays</module>
+        <module>containers</module>
     </modules>
 
 
