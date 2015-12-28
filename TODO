@@ -3,3 +3,5 @@
  - Java 空对象 / Null Objects - 桩/mock object'
  - Chapter 15 generics
  - Flyweight design pattern
+ - 性能刨析器Jprofile
+ - java.lang.ref.*
