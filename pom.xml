@@ -25,6 +25,7 @@
         <module>checker-framework</module>
         <module>core-java</module>
         <module>maven-in-action</module>
+        <module>springframework</module>
     </modules>
 
     <properties>
