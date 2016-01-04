@@ -24,6 +24,11 @@ class SetType {
     }
 
     @Override
+    public int hashCode() {
+        return i;
+    }
+
+    @Override
     public String toString() {
         return Integer.toString(i);
     }

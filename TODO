@@ -5,3 +5,5 @@
  - Flyweight design pattern
  - 性能刨析器Jprofile
  - java.lang.ref.*
+ - JSR 341 and JSR 346
+ - JavaBean

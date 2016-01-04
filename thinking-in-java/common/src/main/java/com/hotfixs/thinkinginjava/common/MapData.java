@@ -5,7 +5,6 @@ import java.util.LinkedHashMap;
 /**
  * @author Junwei Wang (i.junwei.wang@gmail.com)
  */
-
 public class MapData<K, V> extends LinkedHashMap<K, V> {
     // A single Pair Generator:
     public MapData(Generator<Pair<K, V>> gen, int quantity) {

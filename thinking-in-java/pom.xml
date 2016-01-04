@@ -31,6 +31,7 @@
         <module>generics</module>
         <module>arrays</module>
         <module>containers</module>
+        <module>enumerated</module>
     </modules>
 
 

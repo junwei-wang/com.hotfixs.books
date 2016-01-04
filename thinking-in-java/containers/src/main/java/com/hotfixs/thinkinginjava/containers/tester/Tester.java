@@ -91,7 +91,7 @@ public class Tester<C> {
         print(head);
         // Print column headers:
         System.out.format(sizeField, "size");
-        for (Test test : tests) {
+        for (Test<C> test : tests) {
             System.out.format(stringField(), test.name);
         }
         print();

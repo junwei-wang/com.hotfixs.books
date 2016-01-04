@@ -47,7 +47,7 @@ public class MapPerformance {
             int test(Map<Integer, Integer> map, TestParam tp) {
                 int loops = tp.loops * 10;
                 for (int i = 0; i < loops; i++) {
-                    Iterator it = map.entrySet().iterator();
+                    Iterator<Map.Entry<Integer, Integer>> it = map.entrySet().iterator();
                     while (it.hasNext()) {
                         it.next();
                     }
