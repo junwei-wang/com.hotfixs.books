@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
+        <groupId>com.hotfixs.books.maven-in-action</groupId>
         <artifactId>account-parent</artifactId>
-        <groupId>com.hotfixs.maven-in-action</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
