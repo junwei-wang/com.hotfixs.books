@@ -42,8 +42,8 @@ public class TextFile extends ArrayList<String> {
         }
     }
 
-    public TextFile(String fileName, String spiltor) {
-        super(Arrays.asList(read(fileName).split(spiltor)));
+    public TextFile(String fileName, String splitor) {
+        super(Arrays.asList(read(fileName).split(splitor)));
         if (get(0).equals("")) {
             remove(0);
         }

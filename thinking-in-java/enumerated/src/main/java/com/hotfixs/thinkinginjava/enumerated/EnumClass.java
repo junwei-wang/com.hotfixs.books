@@ -9,7 +9,7 @@ import static com.hotfixs.thinkinginjava.common.Print.printnb;
 
 enum Shrubbery {
     GROUND, CRAWLING, HANGING
-};
+}
 
 public class EnumClass {
     public static void main(String[] args) {
