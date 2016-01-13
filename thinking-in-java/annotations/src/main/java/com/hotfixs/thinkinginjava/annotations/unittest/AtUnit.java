@@ -1,5 +1,7 @@
 package com.hotfixs.thinkinginjava.annotations.unittest;
 
+import com.hotfixs.thinkinginjava.common.ProcessFiles;
+
 import java.io.File;
 
 /**

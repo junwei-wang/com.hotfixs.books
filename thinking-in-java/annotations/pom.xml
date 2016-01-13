@@ -14,6 +14,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.hotfixs.books.thinking-in-java</groupId>
+            <artifactId>common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
