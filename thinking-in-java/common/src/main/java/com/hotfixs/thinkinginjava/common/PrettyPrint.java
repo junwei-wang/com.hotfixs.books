@@ -1,5 +1,8 @@
 package com.hotfixs.thinkinginjava.common;
 
+import static com.hotfixs.thinkinginjava.common.Print.print;
+
+import java.util.Arrays;
 import java.util.Collection;
 
 /**
@@ -23,5 +26,13 @@ public class PrettyPrint {
         }
         sb.append("]");
         return sb.toString();
+    }
+
+    public static void pprint(Collection<?> c) {
+        print(pformat(c));
+    }
+
+    public static void pprint(Object[] c) {
+        print(pformat(Arrays.asList(c)));
     }
 }

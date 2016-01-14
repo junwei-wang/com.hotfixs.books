@@ -1,5 +1,4 @@
-package com.hotfixs.thinkinginjava.annotations.unittest;//: net/mindview/util/ProcessFiles.java
-// copy from the source code of thinking in java 4th edition
+package com.hotfixs.thinkinginjava.common;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,8 +30,7 @@ public class ProcessFiles {
                         if (!arg.endsWith("." + ext)) {
                             arg += "." + ext;
                         }
-                        strategy.process(
-                                new File(arg).getCanonicalFile());
+                        strategy.process(new File(arg).getCanonicalFile());
                     }
                 }
             }
@@ -41,20 +39,14 @@ public class ProcessFiles {
         }
     }
 
-    public void
-    processDirectoryTree(File root) throws IOException {
-        for (File file : Directory.walk(
-                root.getAbsolutePath(), ".*\\." + ext)) {
+    public void processDirectoryTree(File root) throws IOException {
+        for (File file : Directory.walk(root.getAbsolutePath(), ".+\\." + ext)) {
             strategy.process(file.getCanonicalFile());
         }
     }
 
     // Demonstration of how to use it:
     public static void main(String[] args) {
-        new ProcessFiles(new ProcessFiles.Strategy() {
-            public void process(File file) {
-                System.out.println(file);
-            }
-        }, "java").start(args);
+        new ProcessFiles(Print::print, "xml").start(args);
     }
-} /* (Execute to see output) *///:~
+}
